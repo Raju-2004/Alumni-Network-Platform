@@ -1,0 +1,26 @@
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0px;
+    border-radius: 40%;
+
+    /* padding: 20px; */
+    color: red; /* Color for the arrows */
+    transition: color 0.3s ease;
+  }
+  
+  .slick-prev {
+    left: 20px; /* Adjust the left position for the previous arrow */
+  }
+  
+  .slick-next {
+    right: 20px; /* Adjust the right position for the next arrow */
+  }
+  
+  .slick-arrow:hover {
+    color: #340574; 
+  }
